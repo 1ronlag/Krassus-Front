@@ -1,0 +1,63 @@
+[
+    {
+      "desc": "La pizza napolitana, de masa tierna y delgada pero bordes altos, es la versión propia de la cocina napolitana de la pizza redonda. El término pizza napoletana, por su importancia histórica o regional, se emplea en algunas zonas como sinónimo de pizza tonda.",
+      "id": "S01",
+      "img": "https://www.okchicas.com/wp-content/uploads/2020/05/diferentes-tipos-suculentas-existen-11.jpg",
+      "Familia": "Crassulaceae",
+      "ingredients": ["mozzarella", "tomates", "jamón", "orégano"],
+      "Reproduccion": "Hoja",
+      "distribucion": "America del Sur",
+      "name": "Suculenta 1",
+      "tipo": "Comun",
+      "price":"10000" 
+    },
+    {
+      "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+      "id": "S02",
+      "img": "https://www.okchicas.com/wp-content/uploads/2020/05/diferentes-tipos-suculentas-existen-9.jpg",
+      "Familia": "Portulacaceae",
+      "ingredients": ["mozzarella", "tomates", "jamón", "choricillo"],
+      "Reproduccion": "Hoja",
+      "distribucion": "América Central y del Norte",
+      "name": "Suculenta 2",
+      "tipo": "Rara",
+      "price": "11000"
+    },
+    {
+      "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+      "id": "S03",
+      "img":"https://www.okchicas.com/wp-content/uploads/2020/05/diferentes-tipos-suculentas-existen-11.jpg",
+       "Familia": "Aizoaceae",
+       "ingredients": ["mozzarella", "tomates", "salame", "orégano"],
+       "Reproduccion": "Tallo y Hoja",
+       "distribucion": "África, Madagascar",
+       "name": "Suculenta 3",
+       "tipo": "Exotica",
+       "price": "12000"
+    },
+    {
+      "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+      "id": "S04",
+      "img": "https://www.okchicas.com/wp-content/uploads/2020/05/diferentes-tipos-suculentas-existen-14.jpg",
+      "Familia": "Didiereaceae",
+      "ingredients": ["mozzarella", "salame", "aceitunas", "champiñones"],
+      "Reproduccion": "Hoja",
+      "distribucion": "Todo el mundo",
+      "name": "Suculenta 4",
+      "tipo": "Comun",
+      "price": "13000"
+    },
+ 
+    {
+      "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+      "id": "S05",
+      "img":"https://www.okchicas.com/wp-content/uploads/2020/05/diferentes-tipos-suculentas-existen-8.jpg",
+      "Familia": "Cactaceae",
+      "ingredients": ["mozzarella", "pimientos", "pollo grillé", "orégano"],
+      "Reproduccion": "Tallo",
+      "distribucion": "Madagascar",
+      "name": "Suculenta 5",
+      "tipo": "Exotica",
+      "price": "14000"
+    }
+  ]

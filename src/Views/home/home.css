@@ -1,0 +1,30 @@
+.homeContainer{
+
+background-image: url(/src/Assets/img/hb.png);
+min-height: 90vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex; 
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.principalText{
+    color: black;
+    padding-top: 10%;
+    margin-left: 150px;
+
+width: 900px;
+    
+
+}
+
+.home-img-container{
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+    margin-right: 400px;
+    }

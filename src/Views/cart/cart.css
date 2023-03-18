@@ -1,0 +1,15 @@
+.cart-content{
+    background-image: url(/src/Assets/img/hb.png);
+    min-height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+
+

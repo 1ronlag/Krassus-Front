@@ -1,0 +1,113 @@
+
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+
+    
+
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.active {
+  color: whitesmoke;
+  text-decoration: none;    
+}
+.no-active {
+  color: gray;
+  text-decoration: none;
+}
+
+
+.titleLogo{
+  color: whitesmoke;
+}
+
+
+.log{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
+}
+
+.btn-logout{
+
+  margin-left: 30px;
+}
+
+
+
+
+/* Footer  */
+
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  max-width: 100%;
+  height: 107px;
+  display: flex;
+  align-items: center;
+
+}
+.footer-list {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 90%;
+  list-style: none;
+}
+
+.footer-item {
+  margin-inline: 2.5rem;  
+}
+
+.footer-link {
+  font-size: 3.6rem;
+  color: whitesmoke;
+}
+
+/* CARDS */
+
+.card-container{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card{
+width: 300px;
+height: 200px;
+
+}
+
+.card-body{
+height: 250px;
+
+}
+
+.card-text{  
+  margin-top: 0px ;}
+
+
+.Total{
+color: whitesmoke;
+
+}
+
+.username{
+  color: white
+}
+
+.brand{
+  font-size: 20px;
+  margin-right: 150px;
+}

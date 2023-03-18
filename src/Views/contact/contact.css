@@ -1,0 +1,66 @@
+.contact-container{
+    background-image: url(/src/Assets/img/ctc.png);
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+display: flex; 
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.contact-content{
+
+    width: 70%;
+    margin-left: 15px;
+}
+
+.form-content{
+    margin-left: 250px;
+}
+
+.contact-title{
+    color: black;
+    font-weight: bold;
+}
+
+.form1{
+width: 1500px;
+background: white;
+color:whitesmoke
+
+}
+
+.form-title{
+font-size: 30px;
+font-weight: bold;
+margin-top: 30px    ;
+color: whitesmoke;
+    
+}
+
+.messaje{
+ width: 100%;
+ height: 200px;
+ border: 2px solid black;
+ align-items: center;
+margin-left: 250px;
+margin-top: 100px;
+
+text-align: center;
+padding-top: 80px;
+background: white;
+}
+
+.send{
+width: 100px;
+height: 50px;
+margin-top: 20px;
+justify-content: center;
+text-align: center;
+margin-left: 65%;
+background-color: gray;
+
+}
+

@@ -1,0 +1,38 @@
+.perfil-container{
+    background-image: url(/src/Assets/img/h1b.png);
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap   ;
+    justify-content: space-between;
+    align-items: center;
+  
+    }
+
+.info-container{
+text-align: center;
+
+}
+    
+.content-perfil{
+    margin-left: 300px;
+    font-size: 25px;
+    width: 700px;
+  
+}
+
+.imgperfil-container{
+    margin-right: 450px;
+}
+
+.historial{
+        width: 200px;
+        background-color: gray;
+}
+
+.collection{
+    width: 200px;
+    background-color: gray;
+}
