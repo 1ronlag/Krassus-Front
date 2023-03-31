@@ -11,6 +11,10 @@ import NotFound from "./Views/Notfound/NotFound";
 import { SucuProvider } from "./Context/Context";
 import Carrito from "./Views/cart/cart";
 import { PrivateRoute } from "./Routes/PrivateRoute";
+import "react-toastify/dist/ReactToastify.css";
+
+
+
 
 function App() {
   return (

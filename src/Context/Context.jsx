@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect } from "react";
+// import axios from "axios";
 
 //  context creation
 const SucuContext = createContext();
@@ -8,25 +9,27 @@ const SucuProvider = ({ children }) => {
   const [suculentas, setSucu] = useState([]);
   const [carrito, setCarrito] = useState([]);
 
-  //Get suculentas
-
-  useEffect(() => {
-    const getSucu = async () => {
-      try {
-        const res = await fetch("/sucu.json");
-        const suculentas = await res.json();
-        if (suculentas) {
-          setSucu(suculentas);
-        } else {
-          throw new Error("Something went wrong");
-        }
-      } catch (error) {
-        // console.log("error en la solicitud", error)
-        alert("No se puede mostrar la informacion solicitada");
+  
+useEffect(() => {
+  const getSucu = async () => {
+    try {
+      const res = await fetch("/sucu.json");
+      const suculentas = await res.json();
+      if (suculentas) {
+        setSucu(suculentas);
+      } else {
+        throw new Error("Something went wrong");
       }
-    };
-    getSucu();
-  }, []);
+    } catch (error) {
+      // console.log("error en la solicitud", error)
+      alert("No se puede mostrar la informacion solicitada");
+    }
+  };
+  getSucu();
+}, []);
+    
+
+
 
   //Buy Cart//
   const addToCart = ({ id, price, name, img }) => {

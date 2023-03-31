@@ -6,6 +6,7 @@ import "../index.css";
 import { useContext } from "react";
 import SucuContext from "../Context/Context";
 
+
 const NewNavbar = () => {
   const { state } = useLocation();
 
@@ -93,6 +94,7 @@ const NewNavbar = () => {
                     </p>
                   </NavLink>
                 </Nav>
+  
               </div>
             )}
           </Nav>
