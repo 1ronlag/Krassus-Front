@@ -13,12 +13,12 @@ const Card = () => {
         {suculentas.map((sucu) => (
           <div key={sucu.id} className="col">
             <div className="card">
-              <img className="card-img-top" src={sucu.img} alt="" />
+              <img className="card-img-top" src={sucu.imagen} alt="" />
               <div className="card-body">
                 <h4 className="card-title text-capitalize">{sucu.name}</h4>
                 <hr />
                 <p className="card-text">
-                  <p className="family">Familia: {sucu.Familia} </p>
+                  <p className="family">Familia: {sucu.familia} </p>
                   <p className="type">Tipo: {sucu.tipo} </p>
                   <p className="reproduction">Reproduccion: {sucu.Reproduccion} </p>
                   <p className="distribution">Distribucion: {sucu.distribucion} </p>

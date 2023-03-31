@@ -21,7 +21,7 @@ const Carrito = () => {
             {carrito.map((producto, i) => (
               <div key={i} className="d-flex justify-content-between py-2">
                 <div className="d-flex justify-content-between align-items-center">
-                  <img src={producto.img} width="50" alt="" />
+                  <img src={producto.imagen} width="50" alt="" />
                   <h6 className="mb-0 text-capitalize p-2">{producto.name}</h6>
                 </div>
 

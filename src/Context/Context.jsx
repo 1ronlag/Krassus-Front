@@ -13,7 +13,7 @@ const SucuProvider = ({ children }) => {
 useEffect(() => {
   const getSucu = async () => {
     try {
-      const res = await fetch("/sucu.json");
+      const res = await fetch("http://localhost:8080/inventory/");
       const suculentas = await res.json();
       if (suculentas) {
         setSucu(suculentas);
@@ -32,9 +32,9 @@ useEffect(() => {
 
 
   //Buy Cart//
-  const addToCart = ({ id, price, name, img }) => {
+  const addToCart = ({ id, price, name, imagen }) => {
     const productoEcontradoIndex = carrito.findIndex((p) => p.id === id);
-    const producto = { id, price, name, img, count: 1 };
+    const producto = { id, price, name, imagen, count: 1 };
 
     if (productoEcontradoIndex >= 0) {
       carrito[productoEcontradoIndex].count++;
